@@ -8,12 +8,12 @@
                 <element inactive="true" inactive_on_update="true" label="Developer Enablement" sequence="0" value="dev_enable"/>
                 <element inactive="true" inactive_on_update="true" label="Facilities" sequence="0" value="facilities"/>
                 <element inactive_on_update="false" label="Human Resources" sequence="0" value="hr"/>
+                <element inactive_on_update="false" label="Database" sequence="1" value="db"/>
                 <element inactive="true" inactive_on_update="true" label="Legal" sequence="1" value="legal"/>
-                <element inactive_on_update="false" label="Software" sequence="1" value="software"/>
-                <element inactive_on_update="false" label="Database" sequence="2" value="db"/>
+                <element inactive_on_update="false" label="Software" sequence="2" value="software"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="db1" label="What needed" max_length="40" name="u_what_needed" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What needed" max_length="40" name="u_what_needed" type="string">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Facilities 1" sequence="0" value="facilities1"/>
                 <element inactive_on_update="false" label="Human Resources 1" sequence="0" value="hr1"/>

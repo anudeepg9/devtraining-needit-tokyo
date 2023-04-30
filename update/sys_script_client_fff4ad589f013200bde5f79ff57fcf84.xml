@@ -24,7 +24,7 @@
         g_form.addOption('u_what_needed', 'hr2', 'Human Resources 2');
         g_form.addOption('u_what_needed', 'other', 'Other');
     }
-    // If the the value of the Request type field is facilities, add
+    // If the the value of the Request type field is database, add
     // two facilities choices and other to the What needed field
     // choice list
     if (newValue == 'db') {
@@ -32,7 +32,7 @@
         g_form.addOption('u_what_needed', 'db2', 'Database 2');
         g_form.addOption('u_what_needed', 'other', 'Other');
     }
-    // If the the value of the Request type field is legal, add
+    // If the the value of the Request type field is Software, add
     // two legal choices and other to the What needed field
     // choice list
     if (newValue == 'software') {
@@ -52,7 +52,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fff4ad589f013200bde5f79ff57fcf84</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>NeedIt Request Type Options</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -60,7 +60,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_client_fff4ad589f013200bde5f79ff57fcf84</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-16 12:20:18</sys_updated_on>
+        <sys_updated_on>2023-04-21 20:00:07</sys_updated_on>
         <table>x_58872_needit_needit</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
